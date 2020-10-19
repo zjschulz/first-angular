@@ -13,8 +13,4 @@ export class UsernameComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onResetInput() {
-    this.userName = ''
-  }
-
 }
