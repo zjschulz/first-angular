@@ -18,7 +18,7 @@ export class ServerComponent implements OnInit {
   }
 
   constructor() {
-    this.serverStatus = Math.random() > 0.5 ? 'online' : 'online';
+    this.serverStatus = (Math.random() > 0.5) ? 'online' : 'offline';
   }
 
   ngOnInit(): void {
